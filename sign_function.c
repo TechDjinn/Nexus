@@ -11,7 +11,7 @@ Author:         Christofer Sundström
 #include <stdio.h>
 
 // Function prototype.
-int sign(const int value);
+int sign(int value);
 
 int main(void)
 {
@@ -26,7 +26,7 @@ int main(void)
     return 0;
 }
 
-int sign(const int value)
+int sign(int value)
 {
     // Assign the respective sign for 'value',
     // using a ternary operator.
