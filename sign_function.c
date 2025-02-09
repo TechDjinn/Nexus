@@ -28,6 +28,7 @@ int main(void)
 
 int sign(const int value)
 {
-    // Assign the respective sign for 'value'.
+    // Assign the respective sign for 'value',
+    // using a ternary operator.
     return (value < 0) ? -1 : (value == 0) ? 0 : 1;
 }
